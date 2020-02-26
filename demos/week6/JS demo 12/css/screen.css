@@ -189,18 +189,21 @@ img, audio, video {
   Major Sixth Modular Scale:
   http://www.modularscale.com/?22&px&1.667&web&text
 */
-
 html {
   font-family: 'Bowlby One', cursive;
   font-size: 1.375em; /* 22px */
   line-height: 1.182em; /* 26px / ~ 120% */
   padding: 1.182em; /* 26px / ~ 120% */
-  text-rendering: optimizeLegibility;
 }
 
 h1 {
   padding-bottom: 1.182em; /* 26px / ~ 120% */
   text-align: center;
+}
+
+span {
+  display: block;
+  padding-top: 0.5em;
 }
 
 label {
@@ -267,7 +270,6 @@ p {
   font-weight: bold;
 }
 
-/* ===== STATE STYLES ===== */
 /*.hasjs class will only exist if js runs*/
 .hasjs #input-email {
   position: relative;
